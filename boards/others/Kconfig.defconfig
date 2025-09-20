@@ -1,0 +1,3 @@
+if BOARD_PROMICRO
+
+endif # BOARD_PROMICRO

@@ -1,0 +1,2 @@
+config BOARD_PROMICRO
+	select SOC_NRF52840_QIAA
