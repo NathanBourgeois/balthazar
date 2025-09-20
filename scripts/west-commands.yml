@@ -1,0 +1,9 @@
+west-commands:
+  - file: scripts/code_checks.py
+    commands:
+      - name: format
+        class: Format
+        help: Run clang-format on C files
+      - name: cppcheck
+        class: Cppcheck
+        help: Run cppcheck static analysis

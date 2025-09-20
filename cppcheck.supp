@@ -1,0 +1,4 @@
+# Ignore some errors
+missingIncludeSystem
+missingInclude
+
