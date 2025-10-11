@@ -17,3 +17,9 @@ Now your computer is setup to build the project, you don't need to repeat those 
 
 9. cd balthazar.git
 10. west build -p -b promicro app --sysbuild
+
+# How to dfu
+
+For windows user, make sure you have the driver WinUSB installed with Zadig.
+
+dfu-util --alt 1 --download build/app/zephyr/zephyr.signed.bin
