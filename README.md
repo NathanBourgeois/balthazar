@@ -1,4 +1,4 @@
-# How to build
+# Setup your environment
 
 The steps to build this project is setup a Zephyr environment in your computer and then get the project
 
@@ -15,11 +15,10 @@ The steps to build this project is setup a Zephyr environment in your computer a
 
 Now your computer is setup to build the project, you don't need to repeat those step *except* for activating the virtual environment.
 
-9. cd balthazar.git
-10. west build -p -b promicro app --sysbuild
+# How to build
 
-# How to dfu
+west build -p -b promicro app
 
-For windows user, make sure you have the driver WinUSB installed with Zadig.
+# How to DFU
 
-dfu-util --alt 1 --download build/app/zephyr/zephyr.signed.bin
+I use the recommanded software AuTerm as indicated in the Nordic Academy : https://academy.nordicsemi.com/courses/nrf-connect-sdk-intermediate/lessons/lesson-9-bootloaders-and-dfu-fota/topic/exercise-1-dfu-over-uart/#serial_recovery
