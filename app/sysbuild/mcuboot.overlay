@@ -1,4 +1,8 @@
 / {
+	chosen {
+		zephyr,uart-mcumgr = &cdc_acm_uart0;
+	};
+	
     aliases {
 		mcuboot-button0 = &button0;
         mcuboot-led0 = &led0;
